@@ -1,0 +1,46 @@
+@import 'fonts.css';
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+}
+
+.profile-photo img{
+    height: 250px;
+    width: 250px;
+
+    border-radius: 15px;
+    border: 1px solid #000;
+}
+
+.info{
+    font-family: 'Ubuntu-Regular';
+
+}
+
+.info li{
+    margin-bottom: 10px;
+    padding-inline: 10px;
+
+    background: #f7e7c7;
+    border: 1px solid #4F4333;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.statistics{
+    display: flex;
+    
+    background: #f7e7c7;
+
+    margin-top: 20px;
+    padding: 10px;
+
+    border: 1px solid #4F4333;
+    border-radius: 15px;
+}

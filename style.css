@@ -1,0 +1,274 @@
+@import 'fonts.css';
+
+        /* Menu logo */ 
+ul,li{
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.logo{
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-text{
+    font-family: 'Ubuntu-Medium';
+    margin-left: 20px;
+    font-size: 30px;
+    color: #dbaa72;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu nav ul{
+    display: flex;
+    flex-direction: row;
+}
+
+.menu-bar{
+    color:rgb(0, 0, 0);
+    padding: 20px 0;
+    background: url("../resources/img/header.jpg");
+    border-bottom: solid 2px #4f43338f;
+}
+
+.menu-item{
+    margin-left: 37px;
+}
+
+.menu-item a{
+    font-family: 'Ubuntu-Bold';
+    font-size: 20px;
+    text-decoration: none;
+    color:#dbaa72;
+}
+
+.menu-item a:hover{
+    color: #816238;
+}
+
+#visit{
+    border: solid 2px #4f43338f;
+    background-color: #4f43338f;
+    color: #fde3c4;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.enter{
+    margin-left: 20px;
+
+}
+
+.enter a{
+    text-decoration: none;
+    color: #dbaa72;
+    font-family: 'Ubuntu-Regular';
+}
+
+.enter a:hover{
+    color:  #816238;
+}
+
+        /* Nav bar */
+.categories{
+    display: flex;
+    position: absolute;
+    overflow: auto;
+    justify-content: start;
+
+    width: 15%;
+    height: 400px;
+    margin-left: 4%;
+    margin-top: 2%;
+
+    background-color: #f7e7c7;
+    border:solid 2px #816338c5;
+    border-radius: 10px;
+}
+
+.categories-menu{
+    font-family: 'Ubuntu-Regular';
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    font-size: 20px;
+
+    margin-top: 20%;
+    margin-left: 20%;
+
+    padding: 0;
+    height: 70%;
+}
+
+.categories-menu-item a{
+    color: #4F4333;
+    text-decoration: none;
+    padding-left: 2px;
+    border-left: 1px solid #44341f;
+}
+
+.categories-menu-item a:hover{
+    padding: 5px;
+    border: solid 2px #BA9768;
+    border-radius: 15px;
+    background-color: #ba9f7b64;
+    font-size: 20px;
+    text-decoration: underline;
+    text-decoration-color: #44341f;
+    text-decoration-thickness: 1px;
+}
+        /* Main */
+main{
+    margin-left: 21%;
+    margin-top: 2%; 
+
+    width: 69%;
+    min-height: 80%;
+    
+    margin-bottom: 10px;
+    flex-grow: 1;
+}
+/* Image scroll. */
+.image-scroll{
+    display:flex;
+    justify-content: center;
+}
+
+.button-scroll{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    height: 15px;
+}
+
+.button-scroll-item{
+    height: 15px;
+    border: solid 2px #866639;
+    background: #dba85f;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+
+.button-scroll-item:hover{
+    border: solid 2px #dba85f;
+    background: #866639;
+}
+
+.button-scroll-item:focus{
+    border: solid 2px #dba85f;
+    background: #866639;
+}
+
+.button-scroll-item:visited{
+    border: solid 2px #dba85f;
+    background: #866639;
+}
+
+#image-scroll-item{
+    height: 300px;
+    border:solid 2px #988368ee;
+    border-radius: 10px;
+   
+}
+
+/* Goods. */
+.popular-goods{
+    margin-top: 25px;
+}
+
+.goods{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-family: 'Ubuntu-Medium';
+}
+
+.goods-item{
+    display: flex;
+    flex-direction: column;
+
+    background-color: #f7e7c7;
+    border:solid 1px #816238;
+    border-radius: 15px;
+
+    color: #4F4333;
+    
+
+    height: 300px;
+    width: 250px;
+    margin-bottom: 15px;
+}
+
+.goods li{
+    list-style: none;
+    flex: 0 0 33.333333%;
+}
+
+.goods-item-image{
+    display: flex;
+    justify-content: center;
+}
+
+.goods-item-image img{
+    margin-top: 10px;
+    height: 150px;
+    width: 200px;
+}
+
+.goods-item-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+    margin-left: 22px;
+}
+
+.name{
+    font-family: 'Ubuntu-Medium';
+    font-size: 20px;
+}
+
+.grade{
+    font-family: 'Ubuntu-Regular';
+    font-size: 15px;
+}
+
+.cost{
+    font-family: 'Ubuntu-Medium';
+    font-size: 17px;
+    color: #4F4333;
+}
+
+footer{
+    display:flex;
+    justify-content: space-between;
+    
+    height: 100%;
+    padding: 20px 20px;
+
+    color:#4F4333;
+    background-color: #f7e7c7;
+    border-top: solid 2px #4f43338f;
+
+    flex-shrink: 0;
+}
+
+footer a{
+    color:#4F4333;
+    text-decoration: none;
+}

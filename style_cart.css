@@ -1,0 +1,52 @@
+@import 'fonts.css';
+
+main{
+    display: flex;
+    flex-direction:column;
+}
+
+.delivery-item{
+    display: flex;
+    
+    height: 150px;
+
+    border: 1px solid #816238;
+    border-radius: 15px;
+
+    background-color:#f7e7c7;
+
+    padding: 15px;
+
+    margin-bottom: 10px;
+}
+
+.delivery-item-image img{
+    height: 120px;
+    width: 190px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+.delivery-item-name{
+    font-family: 'Ubuntu-Medium';
+    font-size: 25px;
+
+    margin-bottom: 30px;
+}
+
+.delivery-item-cost{
+    font-family: 'Ubuntu-Regular';
+
+    font-size: 20px;
+}
+
+.close{
+    margin-left: 72%;
+}
+
+
+

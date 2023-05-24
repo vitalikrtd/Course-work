@@ -1,0 +1,203 @@
+@import 'fonts.css';
+
+main{
+    display: flex;
+    flex-direction: column  ;
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+}
+
+.name{
+    margin-bottom: 15px;
+    font-size: 25px;
+    font-family: 'Ubuntu-Medium';
+}
+
+.photo{
+    height: 393,75px;
+    width: 700px;
+    overflow: hidden;
+}
+
+.photo img{
+    height: inherit;
+    width: inherit;
+}
+
+.short-info{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Ubuntu-Regular';
+
+    width: 35%;
+
+    background: #f7e7c7;
+
+    margin-top: 45px;
+    margin-left: 20px;
+
+    border: 1px solid #816238;
+    border-radius: 10px;
+
+    padding: 20px;
+
+    height: 30%;
+}
+
+.short-info ul{
+    color: #4F4333;
+
+    font-family: 'Ubuntu-Medium';
+}
+
+.short-info li{
+    margin-bottom: 10px;
+}
+
+.short-info li span{
+    font-family: 'Ubuntu-Regular';
+}
+
+.short-info .price{
+    font-size: 30px;
+}
+
+.discription{
+    border: 2px solid #816238;
+    border-radius: 10px;
+
+    background: #f7e7c7;
+
+    margin-top: 20px;
+    padding: 15px;
+
+    word-wrap: break-word;
+    font-size: 15px;
+
+}
+
+.add-to-cart {
+    width: 150px;
+    text-align:center;
+    display:block;
+    font-family: arial;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 14px;
+    color: #3B2406;
+    border: #BA9768 1px solid;
+    padding: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 20px auto;
+    transition: .5s;
+    border-radius: 0px;
+}
+
+ .add-to-cart:hover {
+  top: 5px;
+  transition: .5s;
+  color: #BA9768;
+  border: #3B2406 1px solid;
+  border-radius: 10px;
+} 
+.add-to-cart:active {
+  color: #000;
+  border: #1A1A1A 1px solid;
+  transition: .07s;
+  background-color: #f7e7c7;
+}
+
+.choose{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.title-color{
+  display: flex;
+  justify-content: center;
+  font-family: 'Ubuntu-Medium';
+  font-size: 20px;
+  color: #3B2406;
+  border-bottom: #816238 1px solid;
+  border-top: #816238 1px solid;
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+
+.title-model{
+    display: flex;
+    justify-content: center;
+    font-family: 'Ubuntu-Medium';
+    font-size: 20px;
+    color: #3B2406;
+    border-bottom: #816238 1px solid;
+    border-top: #816238 2px solid;
+    border-radius: 15px;
+    margin-bottom: 15px;
+  }
+
+.choose{
+    border:#816238 1px solid;
+    border-radius: 15px;
+    background: #f7e7c7;
+}
+
+.choose-menu ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.choose-item{
+   margin-left: 30px;
+   border:#3B2406 1px solid;      
+}
+
+.choose-item img{
+    height: 100px;
+    width: 100px;
+    border-bottom:#3B2406 1px solid;
+}
+
+.choose-item img:hover{
+    height: 105px;
+    width: 105px;
+    border-bottom:#3B2406 1px solid;
+}
+
+.name-color{
+    display: flex;
+    justify-content: center;
+    font-family: 'Ubuntu-Regular';
+    font-size: 15px;
+    color: #3B2406;
+}
+
+.name-model{
+    display: flex;
+    justify-content: center;
+    font-family: 'Ubuntu-Regular';
+    font-size: 15px;
+    color: #3B2406;
+}
+
+.choose-model-item{
+    margin-left: 30px;
+    border:#3B2406 1px solid;      
+ }
+ 
+ .choose-model-item img{
+     height: 150px;
+     width: 200px;
+     border-bottom:#3B2406 1px solid;
+ }
+ .choose-model-item img:hover{
+    height: 155px;
+    width: 205px;
+    border-bottom:#3B2406 1px solid;
+  }

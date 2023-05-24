@@ -1,0 +1,51 @@
+@import 'fonts.css';
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: 'Ubuntu-Regular';
+}
+
+.authorization form {
+    display: flex;
+    flex-direction: column;
+}
+
+.registration form {
+    display: flex;
+    flex-direction: column;
+}
+
+p{
+    font-family: 'Ubuntu-Medium';
+    color: #4F4333;
+}
+
+input{
+    margin: 5px 0;
+    padding: 3px;
+    border: 2px solid #b88139;
+    border-radius: 5px;
+
+}
+
+input[type=submit]{
+    color: #fad7af;
+    background: #92662b;
+    border: 2px solid #fad7af;
+    border-radius: 5px;
+}
+
+input[type=submit]:hover{
+    color: #fad7af;
+    background: #92662b;
+    border: 2px solid #3b2811;
+    border-radius: 5px;
+}
+input[type=submit]:active{
+    color: #92662b;
+    background: #ffbd71;
+    border: 2px solid #fad7af;
+    border-radius: 5px;
+}

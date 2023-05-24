@@ -1,0 +1,80 @@
+@import 'fonts.css';
+
+main{
+    color:#4F4333;
+}
+
+.short-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 1px solid #000;
+    border-radius: 15px;
+    background: #f7e7c7;
+
+    padding: 15px;
+    padding-left: 20px;
+
+    font-family: 'Ubuntu-Regular';
+    word-wrap: break-word;
+    
+}
+
+#first{
+    font-family: 'Ubuntu-Medium';
+    font-size: 20px;
+}
+
+#fourth{
+    font-family: 'Ubuntu-Medium';
+}
+
+#fifth{
+    font-family: 'Ubuntu-Regular';
+}
+
+.text{
+    margin-bottom: 15px;
+}
+
+.sub-menu{
+   display: none;
+}
+
+.payment-methods-item:focus ~ .sub-menu,
+.payment-methods-item:active ~ .sub-menu,
+.sub-menu:hover{
+   display: block;
+}
+
+.payment-methods{
+    margin-top: 10px;
+
+    font-size: 20px;
+    
+    border: 1px solid #816238;
+    border-radius: 15px;
+    background: #f7e7c7;
+}
+
+.payment-methods-item{
+    text-decoration: none;
+    font-family: 'Ubuntu-Regular';
+    color:#4F4333;
+    padding-inline: 30px;   
+    
+}
+
+.sub-menu{
+    font-family: 'Ubuntu-Light';
+    font-size: 16px;
+}
+
+.bold{
+    display: inline-block;
+    font-family: 'Ubuntu-Medium';
+}
+
+.sub-menu li{
+    word-wrap: break-word;
+}
