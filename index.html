@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="resources/img/logo1.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <title>Беремо!</title>  
+</head> 
+<body style="background:url(resources/img/back.jpg);display: flex;flex-direction: column;min-height: 100vh;">
+    
+    <header class="menu-bar">
+        <div class="container">
+                <div class="logo">
+                    <img src="resources/img/logo1.png" alt="Лого" class="logo"><div class="logo-text">Беремо!</div>
+                </div>
+                <div class="menu">
+                    <nav>
+                        <ul>
+                            <li class="menu-item"><a href="about_us.html"><i class="fa-solid fa-circle-info"></i> Про нас</a></li>
+                            <li class="menu-item"><a href="delivery.html"><i class="fa-solid fa-truck-ramp-box"></i> Доставка</a></li>
+                            <li class="menu-item"><a href="cart.html"><i class="fa-solid fa-basket-shopping"></i> Кошик</a></li>
+                            <li class="menu-item"><a href="cabinet.html"><i class="fa-solid fa-user"></i> Кабінет</a></li>
+                            <li class="enter"><a href="" onclick="window.open('authorization.html', 'Вхід', 'left=600, top=350, width=700, height=200, status=no, toolbar=no, menubar=no, location=no, directories=no')">Вхід до кабінету</a></li>
+                        </ul>
+                    </nav>
+            </div>
+        </div>
+    </header>
+    <nav>
+        <div class="categories">
+            <ul class="categories-menu">
+                <li class="categories-menu-item"><a href="#">Дивани</a></li>
+                <li class="categories-menu-item"><a href="#">Стільці</a></li>
+                <li class="categories-menu-item"><a href="#">Столи</a></li>
+                <li class="categories-menu-item"><a href="#">Ліжка</a></li>
+                <li class="categories-menu-item"><a href="#">Шафи</a></li>
+                <li class="categories-menu-item"><a href="#">Комоди</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main> 
+        <div class="image-scroll">
+            <img id="image-scroll-item" src="resources/img/scroll_image_1.jpg" alt="image_1">
+        </div>
+        <div class="button-scroll">
+            <button class="button-scroll-item" id="0" onclick="change_image(this.id);"></button>
+            <button class="button-scroll-item" id="1" onclick="change_image(this.id);"></button>
+            <button class="button-scroll-item" id="2" onclick="change_image(this.id);"></button>
+        </div>
+
+        <div class="popular-goods">
+            <ul class="goods">
+                <li>
+                    <div class="goods-item">
+                        <div class="goods-item-image">
+                            <a href="product.html"><img src="resources/img/scroll_image_1.jpg" alt="good_1"></a>
+                        </div>
+                        <div class="goods-item-info">
+                            <div class="name">Назва</div>
+                            <div class="grade">Оцінка</div>
+                            <div class="cost">Ціна</div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="goods-item">
+                        <div class="goods-item-image">
+                            <a href="product.html"><img src="resources/img/scroll_image_1.jpg" alt=""></a>
+                        </div>
+                        <div class="goods-item-info">
+                            <div class="name">Назва</div>
+                            <div class="grade">Оцінка</div>
+                            <div class="cost">Ціна</div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="goods-item">
+                        <div class="goods-item-image">
+                            <a href="product.html"><img src="resources/img/scroll_image_1.jpg" alt="image"></a>
+                        </div>
+                        <div class="goods-item-info">
+                            <div class="name">Назва</div>
+                            <div class="grade">Оцінка</div>
+                            <div class="cost">Ціна</div> 
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="goods-item">
+                        <div class="goods-item-image">
+                            <a href="product.html"><img src="resources/img/scroll_image_1.jpg" alt="image"></a>
+                        </div>
+                        <div class="goods-item-info">
+                            <div class="name">Назва</div>
+                            <div class="grade">Оцінка</div>
+                            <div class="cost">Ціна</div>   
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="goods-item">
+                        <div class="goods-item-image">
+                            <a href="product.html"><img src="resources/img/scroll_image_1.jpg" alt="image"></a>
+                        </div>
+                        <div class="goods-item-info">
+                            <div class="name">Назва</div>
+                            <div class="grade">Оцінка</div>
+                            <div class="cost">Ціна</div>   
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="goods-item">
+                        <div class="goods-item-image">
+                            <a href="product.html"><img src="resources/img/scroll_image_1.jpg" alt="image"></a>
+                        </div>
+                        <div class="goods-item-info">
+                            <div class="name">Назва</div>
+                            <div class="grade">Оцінка</div>
+                            <div class="cost">Ціна</div>   
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="goods-item">
+                        <div class="goods-item-image">
+                            <a href="product.html"><img src="resources/img/scroll_image_1.jpg" alt="image"></a>
+                        </div>
+                        <div class="goods-item-info">
+                            <div class="name">Назва</div>
+                            <div class="grade">Оцінка</div>
+                            <div class="cost">Ціна</div>   
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="goods-item">
+                        <div class="goods-item-image">
+                            <a href="product.html"><img src="resources/img/scroll_image_1.jpg" alt="image"></a>
+                        </div>
+                        <div class="goods-item-info">
+                            <div class="name">Назва</div>
+                            <div class="grade">Оцінка</div>
+                            <div class="cost">Ціна</div>   
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="goods-item">
+                        <div class="goods-item-image">
+                            <a href="product.html"><img src="resources/img/scroll_image_1.jpg" alt="image"></a>
+                        </div>
+                        <div class="goods-item-info">
+                            <div class="name">Назва</div>
+                            <div class="grade">Оцінка</div>
+                            <div class="cost">Ціна</div>   
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </main>
+
+    <footer>
+        <div class="numbers">
+            <i class="fa-solid fa-phone"></i>+380979421647
+        </div>
+        <div class="social-networks">
+            <i class="fa-brands fa-instagram"></i>@beremo.inst 
+            <i class="fa-brands fa-telegram"></i>@beremo.tg
+        </div>
+    </footer>
+    <script src="index.js"></script> 
+    <script src="index_auto_change.js"></script>
+    <script src="https://kit.fontawesome.com/64dd8eee67.js" crossorigin="anonymous"></script>
+</body>
+</html>
